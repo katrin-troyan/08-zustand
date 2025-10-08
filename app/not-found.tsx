@@ -30,9 +30,9 @@ export default function NotFound() {
       <p className={css.description}>
         Sorry, the page you are looking for does not exist.
       </p>
-      <p>
-        Go back to <Link href="/">homepage</Link>
-      </p>
+      <Link href="/" className={css.description}>
+        Go back to
+      </Link>
     </div>
   );
 }
